@@ -9,12 +9,17 @@ body {
   margin: 0;
 }
 
+/* Style for Header text */
+h2 {
+  color: pink;
+}
+
 /* Header/logo Title */
 .header {
   padding: 60px;
   text-align: center;
   background: pink;
-  color: whitee;
+  color: white;
 }
 
 /* Style the top navigation bar */
