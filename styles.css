@@ -23,7 +23,7 @@ h2 {
 /* Styler for images */
 img {
   padding: 10px;
-  height: 500px;
+  height: 250px;
 }
 
 a {
@@ -35,8 +35,18 @@ div.scrollmenu {
   overflow: auto;
   white-space: nowrap;
 }
-div.scrollmenu img:hover {
+.scrollmenu img:hover {
   background-color: #777;
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .card {
+    flex: 0 0 auto;
+  }
 }
 
 /* Header/logo Title */
@@ -91,6 +101,7 @@ div.scrollmenu img:hover {
 /* Fake image, just for this example */
 .fakeimg {
   background-color: #333;
+  align-content: center;
   width: 100%;
   padding: 20px;
 }
