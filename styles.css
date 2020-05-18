@@ -21,6 +21,16 @@ h2 {
   font-family: "Lucida Console", Courier, monospace;
 }
 
+h3 {
+  font-family: 'DM Mono', monospace;
+
+}
+
+h4 {
+  font-family: 'DM Mono', monospace;
+  font-weight: normal;
+}
+
 /* Styler for images */
 img {
   padding: 10px;
