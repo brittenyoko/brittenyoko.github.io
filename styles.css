@@ -23,11 +23,20 @@ h2 {
 /* Styler for images */
 img {
   padding: 10px;
-  height: 250px;
+  height: 500px;
 }
 
 a {
   color: pink;
+}
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+div.scrollmenu img:hover {
+  background-color: #777;
 }
 
 /* Header/logo Title */
@@ -92,6 +101,7 @@ a {
   text-align: center;
   background: #ddd;
 }
+
 /* Loader */
 .loader-wrapper {
   width: 100%;
