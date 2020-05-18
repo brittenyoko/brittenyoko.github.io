@@ -9,7 +9,12 @@ body {
   margin: 0;
 }
 
-/* Style for Header text */
+/* Style for Headers */
+h1 {
+  color: white;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
 h2 {
   color: pink;
   font-family: "Lucida Console", Courier, monospace;
@@ -18,6 +23,10 @@ h2 {
 /* Styler for images */
 img {
   padding: 10px;
+}
+
+a {
+  color: pink;
 }
 
 /* Header/logo Title */
