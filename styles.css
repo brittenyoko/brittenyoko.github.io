@@ -35,7 +35,7 @@ div.scrollmenu {
   overflow: auto;
   white-space: nowrap;
 }
-.scrollmenu img:hover {
+.scrolling-wrapper-flexbox img:hover {
   background-color: #777;
 }
 
