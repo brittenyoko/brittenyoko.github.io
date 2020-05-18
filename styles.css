@@ -12,7 +12,8 @@ body {
 /* Style for Headers */
 h1 {
   color: white;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Lobster', cursive;
+  font-size: 36px;
 }
 
 h2 {
@@ -35,6 +36,17 @@ div.scrollmenu {
   overflow: auto;
   white-space: nowrap;
 }
+
+p {
+  font-size: 18px;
+  font-family: 'DM Mono', monospace;
+}
+
+li {
+  font-size: 18px;
+  font-family: 'DM Mono', monospace;
+}
+
 .scrolling-wrapper-flexbox img:hover {
   background-color: #777;
 }
@@ -55,7 +67,8 @@ div.scrollmenu {
   text-align: center;
   width: 100%;
   background: rgb(255,255,255);
-  background: linear-gradient(30deg, rgba(255,255,255,1) 25%, rgba(255,195,204,1) 50%, rgba(255,182,193,1) 75%, rgba(255,105,180,1) 100%);
+  background: linear-gradient(30deg, rgba(255,255,255,1) 25%, rgba(255,195,204,1)
+  50%, rgba(255,182,193,1) 75%, rgba(255,105,180,1) 100%);
 }
 
 /* Style the top navigation bar */
@@ -112,9 +125,13 @@ div.scrollmenu {
   padding: 20px;
   width: 100%;
   text-align: center;
-  background: #ddd;
+  background: linear-gradient(30deg, rgba(255,255,255,1) 25%, rgba(255,195,204,1)
+  50%, rgba(255,182,193,1) 75%, rgba(255,105,180,1) 100%);
 }
 
+.icon {
+  height: 100px;
+}
 /* Loader */
 .loader-wrapper {
   width: 100%;
