@@ -58,8 +58,9 @@ li {
   font-family: 'DM Mono', monospace;
 }
 
-img{
-  height: 200px;
+button {
+  padding: 20px;
+  align-self: right;
 }
 
 .scrolling-wrapper-flexbox img:hover {
@@ -202,8 +203,7 @@ img{
   padding: 20px;
   width: 100%;
   text-align: center;
-  background: linear-gradient(30deg, rgba(255,255,255,1) 25%, rgba(255,195,204,1)
-  50%, rgba(255,182,193,1) 75%, rgba(255,105,180,1) 100%);
+  background: pink;
 }
 
 .icon {
