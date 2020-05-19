@@ -4,6 +4,7 @@
       <title>Britteny Okorom-Achuonye</title>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" href="styles.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <link rel="icon" href="macroon.png">
@@ -25,7 +26,7 @@
          <div class='row'>
            <div class='column'>
              <div class="card">
-               <h2>About Me</h2>
+               <h2 class="card-title">About Me</h2>
                <img src="lake_pic.jpg" style = "height:200px;"/>
                <p>I am currently a rising junior at Harvard College studying Computer
                  Science with a secondary in African-American Studies. I am very
@@ -36,7 +37,7 @@
            </div>
            <div class='column'>
              <div class="card">
-               <h2> Technical Skills</h2>
+               <h2 class="card-title"> Technical Skills</h2>
                <ul>
                   <li>Python</li>
                   <li>Java</li>
@@ -48,7 +49,7 @@
            </div>
            <div class='column'>
              <div class="card">
-               <h2>Revalent Coursework</h2>
+               <h2 class="card-title">Revalent Coursework</h2>
                <ul>
                   <li>Introduction to Computer Science</li>
                   <li>Data Structures and Algorithms</li>
@@ -59,6 +60,20 @@
            </div>
          </div>
        </div>
+     </div>
+     <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+     </div>
+     <script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
+     </script>
+     <!-- Footer  -->
+     <div class="footer">
+       <a href="https://github.com/brittenyoko"><img src="https://img.icons8.com/clouds/100/000000/github.png" class="icon"/></a>
+       <a href="https://www.linkedin.com/in/britteny-okorom-achuonye"><img src="https://img.icons8.com/clouds/100/000000/linkedin.png" class="icon"/></a>
+       <a href=""  ><img src="https://img.icons8.com/clouds/100/000000/gmail.png" class="icon"/></a>
      </div>
    </body>
 </html>
