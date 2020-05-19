@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Style the body */
 body {
   font-family: Arial;
@@ -35,6 +39,7 @@ h4 {
 img {
   padding: 10px;
   height: 250px;
+  float: right;
 }
 
 a {
@@ -133,7 +138,9 @@ button {
   margin-top: 10px;
 }
 
-
+.profile  {
+  float: left;
+}
 
 /* Column container */
 .row {
