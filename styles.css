@@ -58,6 +58,10 @@ li {
   font-family: 'DM Mono', monospace;
 }
 
+img{
+  height: 200px;
+}
+
 .scrolling-wrapper-flexbox img:hover {
   background-color: #777;
 }
@@ -71,6 +75,7 @@ li {
     flex: 0 0 auto;
   }
 }
+
 
 /* Header/logo Title */
 .header {
