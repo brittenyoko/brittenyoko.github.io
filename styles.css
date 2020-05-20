@@ -108,6 +108,8 @@ button {
 .navbar {
   display: flex;
   background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  width: 100%; /* Full width */
 }
 
 /* Style the navigation bar links */
@@ -116,6 +118,7 @@ button {
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
+
 }
 
 /* Change color on hover */
