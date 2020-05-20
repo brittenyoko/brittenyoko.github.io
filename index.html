@@ -228,6 +228,20 @@
            $(".loader-wrapper").fadeOut("slow");
          });
       </script>
+      <script>
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
       <!-- Footer  -->
       <div class="footer">
         <a href="https://github.com/brittenyoko"><img src="https://img.icons8.com/clouds/100/000000/github.png" class="icon"/></a>
