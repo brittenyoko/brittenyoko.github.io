@@ -110,6 +110,7 @@ button {
   display: flex;
   background-color: #333;
   width: 100%; /* Full width */
+  position: sticky;
 }
 
 /* Style the navigation bar links */
